@@ -1,4 +1,4 @@
-# BrainStorming - Repository 명
+# BrainStorming - Repository
 알고리즘 스터디 코드 
 
 ## 스터디원

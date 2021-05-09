@@ -19,3 +19,7 @@
 ## 스터디 2주차 문제(문제 선별 - 안정식)
 1. 프로그래머스 - 전화번호 목록 - https://programmers.co.kr/learn/courses/30/lessons/42577
 2. 프로그래머스 - 위장 - https://programmers.co.kr/learn/courses/30/lessons/42578
+
+## 스터디 3주차 문제(문제 선별 - 최인선)
+1. 프로그래머스 - 실패율 - https://programmers.co.kr/learn/courses/30/lessons/42889
+2. 프로그래머스 - 크레인 인형뽑기 게임 - https://programmers.co.kr/learn/courses/30/lessons/64061

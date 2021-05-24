@@ -29,3 +29,8 @@
 2. 백준 - 조별과제를 하려는데 조장이 사라졌다 - https://www.acmicpc.net/problem/15727
 3. 프로그래머스 - 광고 삽입 - https://programmers.co.kr/learn/courses/30/lessons/72414
 - 광고삽입 문제 풀이 출제 의도 및 풀이 방법 참고 - https://tech.kakao.com/2021/01/25/2021-kakao-recruitment-round-1/
+
+## 스터디 5주차 문제(문제 선별 - 안정식) - 정렬 문제 위주
+1. 프로그래머스 - H-Index - https://programmers.co.kr/learn/courses/30/lessons/42747
+2. 백준 - 2017 아주대학교 프로그래밍 경시대회 (Large) - https://www.acmicpc.net/problem/14593
+3. 백준 - 세수 정렬 - https://www.acmicpc.net/problem/2752

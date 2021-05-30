@@ -34,3 +34,8 @@
 1. 프로그래머스 - H-Index - LEVEL2 - https://programmers.co.kr/learn/courses/30/lessons/42747
 2. 백준 - 2017 아주대학교 프로그래밍 경시대회 (Large) - https://www.acmicpc.net/problem/14593
 3. 백준 - 세수 정렬 - https://www.acmicpc.net/problem/2752
+
+## 스터디 6주차 문제(문제 선별 - 최인선)
+1. 프로그래머스 - K번째수 - 레벨 1 - https://programmers.co.kr/learn/courses/30/lessons/42748
+2. 프로그램머스 - 키패드 누르기 - 레벨 1 - https://programmers.co.kr/learn/courses/30/lessons/67256
+3. 백준 - 회사에 있는 사람 - 문자열 - https://www.acmicpc.net/problem/7785

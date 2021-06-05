@@ -26,28 +26,34 @@ def check_count():
         return check_count
     else :
         return '입력범위를 다시 체크해주세요'
+
+# 2째 줄 이름 및 입장 퇴장 로그
+def seperate_name(whole_count):
+    # input name and ent
+    name_stack = {}
+    for run in range(whole_count):
+        name_log = input()
+        status = name_log[-5:]
+        name = name_log[:-6]
+        # name check
+        name_stack[name] = status
     
+    result_name_array = []
+    for x in name_stack :
+        if name_stack[x] == 'enter':
+            result_name_array.append(x) 
+
+    return result_name_array
+
 # 끝 . 배열로 나온 사람들 정렬
 def sort_reverse_name(array_name):
     array_name.sort()
     array_name.reverse()
     return array_name
 
-def seperate_name(whole_count):
-    for run in whole_count:
-        name_log = input()
-        status = name_log[-5:]
-        name = name_log[:-6]
-
-    # name check
-    name_stack = []
-    if status == 'enter':
-        name_stack[name] += status
-    else :
-        name_stack[name] += status
-
-    
+# 최종 
+def result_function():
+    for i in sort_reverse_name(seperate_name(check_count())):
+        print(i)
 ##### 실행부 #####
-
-# 1. 전체 출입기록수
-check_count()
+result_function()

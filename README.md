@@ -40,3 +40,6 @@
 1. 프로그래머스 - K번째수 - 레벨 1 - https://programmers.co.kr/learn/courses/30/lessons/42748
 2. 프로그램머스 - 키패드 누르기 - 레벨 1 - https://programmers.co.kr/learn/courses/30/lessons/67256
 3. 백준 - 회사에 있는 사람 - 문자열 - https://www.acmicpc.net/problem/7785
+4. 그외 
+    - [SpringBoot] 주문관리 API 서버 개발
+    - https://programmers.co.kr/skill_check_assignments/34

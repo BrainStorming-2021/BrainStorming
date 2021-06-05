@@ -20,3 +20,4 @@ def solution(array, commands):
         rs.sort()
         answer.append(rs[index])
     return answer
+        

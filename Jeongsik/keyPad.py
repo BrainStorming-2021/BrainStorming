@@ -1,8 +1,4 @@
 #-*-coding:utf-8-*-
-import sys
-import io
-sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
-sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 '''
     이 전화 키패드에서 왼손과 오른손의 엄지손가락만을 이용해서 숫자만을 입력하려고 합니다.
     맨 처음 왼손 엄지손가락은 * 키패드에 오른손 엄지손가락은 # 키패드 위치에서 시작하며, 엄지손가락을 사용하는 규칙은 다음과 같습니다.
@@ -26,21 +22,47 @@ sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
     [7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2]	"left"	"LRLLRRLLLRR"
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]	    "right"	"LLRLLRLLRL"
 '''
+def array_check(numbers):
+    if count(numbers) >= 1 or count(numbers) <= 1000:
+        for x in numbers:
+            if x >= 9:
+                return False
+        return numbers
+    else :
+        return False
+
+def same_distance(num, hand, temp):
+    # 같은 거리
+    if (temp['right'] - temp['left']) == 2 :
+        if hand == 'left' :
+            return 'L'
+        else :
+            return 'R'
+    else :
+        
+def distribute_number(numbers, hand):
+    result_array = []
+    temp_num = {'left':0,'right':0}
+    for i in numbers:
+        if x == 1 or x == 4 or x == 7:
+            result_array += 'L'
+            temp_num['left'] = x
+        elif x == 3 or x == 6 or x == 9:
+            result_array += 'R'
+            temp_num['right'] = x
+        elif x == 2 or x == 5 or x == 8 or x == 0:
+            result_array += same_distance(x, hand, temp_num)
+
 def solution(numbers, hand):
-    if numbers == 1 or numbers == 4 or numbers == 7 or numbers == '*' :
-        print(numbers, '왼손')
-    elif numbers == 3 or numbers == 6 or numbers == 9 or numbers == '#' :
-        print(numbers, '오른손')
-    #else if 3,6,9,'#' :
+    # 배열 범위체크
+    array_check(numbers)
+    
+    # 체크로그
+    distribute_number(array_check(numbers))
+    
     answer = ''
     return answer
-
 # 테스팅
 #solution([1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5], "right")
 #solution([7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2], "left")
 #solution([1, 2, 3, 4, 5, 6, 7, 8, 9, 0], "right")
-
-# number or 분기 테스트
-solution(1, "right")
-solution('#', "right")
-solution(3, "right")

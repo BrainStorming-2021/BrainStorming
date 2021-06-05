@@ -19,43 +19,33 @@
     출력
         현재 회사에 있는 사람의 이름을 사전 순의 역순으로 한 줄에 한 명씩 출력한다.
 '''
-
-#log_count = input()
-#system_log= list(map(int, input().split()))
-
-
-# 끝 . 배열로 나온 사람들 정렬
-remaining_people = []
-def sort_reverse_name (array_name):
-    array_name.sort()
-    array_name.reverse()
-    return array_name
-
-# 한글 인코딩 이슈
-# 1. 인터프레터 3.8 버전으로 변경후 처리 
-# a = ['안정식', '권소현', '김철수', '박다람쥐']
-# print(sort_reverse_name(a))
-
-
-name_log = input()
-
-status = name_log[-5:]
-name = name_log[:-6]
-
-# name check
-name_stack = []
-if status == 'enter':
-    name_stack[name] += status
-else :
-    name_stack[name] += status
-    
-
+# 시작 . 전체 건수 체크
 def check_count():
     check_count = int(input())
     if check_count >= 2 or check_count <= 1000000 :
         return check_count
     else :
         return '입력범위를 다시 체크해주세요'
+    
+# 끝 . 배열로 나온 사람들 정렬
+def sort_reverse_name(array_name):
+    array_name.sort()
+    array_name.reverse()
+    return array_name
+
+def seperate_name(whole_count):
+    for run in whole_count:
+        name_log = input()
+        status = name_log[-5:]
+        name = name_log[:-6]
+
+    # name check
+    name_stack = []
+    if status == 'enter':
+        name_stack[name] += status
+    else :
+        name_stack[name] += status
+
     
 ##### 실행부 #####
 

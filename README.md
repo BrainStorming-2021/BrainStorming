@@ -51,6 +51,8 @@
     - https://programmers.co.kr/skill_check_assignments/34
 
 ## 스터디 7주차 문제(문제 선별 - 주형준)
-
+프로그래머스 - 체육복 - 레벨 1 - https://programmers.co.kr/learn/courses/30/lessons/42862
+프로그래머스 - 메뉴리뉴얼 - 레벨 2 -https://programmers.co.kr/learn/courses/30/lessons/72411
+프로그래머스 - 시저암호 - 레벨 1 - https://programmers.co.kr/learn/courses/30/lessons/12926
 
 

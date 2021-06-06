@@ -7,10 +7,10 @@ def solution(numbers, hand):
     for currentNo in numbers:
         if currentNo in [1, 4, 7]:
             answer += "L"
-            last_l = currentNo   # 위치
+            last_l = currentNo
         elif currentNo in [3, 6, 9]:
             answer += "R"
-            last_r = currentNo  #오른손 위치
+            last_r = currentNo
         else:
             div_l = distance(last_l, currentNo)
             div_r = distance(last_r, currentNo)
@@ -43,7 +43,3 @@ def distance(hand_no, number):
     x_h, y_h = find_distance[hand_no]
     x_n, y_n = find_distance[number]
     return abs(x_n - x_h) + abs(y_n - y_h)
-
-
-## 값 출력
-print('값출력함 >> ', solution([7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2], "left"))

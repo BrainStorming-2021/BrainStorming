@@ -6,7 +6,7 @@
 # 이름은 5글자 이하
 # 출력 : 현재 회사에 있는 사람의 이름을 사전 순의 역순으로 한줄이 한명씩 출력
 n = int(input())
-punch = {}
+punch = {}  # 출입기록 로그 해시로 변환
 people = []
 for _ in range(n):
     k, p = input().split()
@@ -17,4 +17,3 @@ for name, condition in punch.items():
         people.append(name)
 
 print("\n".join(sorted(people, reverse=True)))
-

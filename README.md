@@ -4,7 +4,7 @@
 # 유용한 사이트
 1. 스타트업 자금 상황
 - https://thevc.kr/
-2. 깃 허브 커밋 메세지 
+2. 좋은 깃 허브 커밋 메세지 
 - https://beomseok95.tistory.com/328
 
 ## 스터디원

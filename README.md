@@ -61,4 +61,7 @@
 2. 프로그래머스 - 메뉴리뉴얼 - 레벨 2 -https://programmers.co.kr/learn/courses/30/lessons/72411
 3. 프로그래머스 - 시저암호 - 레벨 1 - https://programmers.co.kr/learn/courses/30/lessons/12926
 
-
+## 스터디 8주차 문제(문제 선별 - 박정미)
+1. 백준 - 방학숙제 - https://www.acmicpc.net/problem/5532
+2. 프로그래머스 - 모의고사 - 레벨 1 - https://programmers.co.kr/learn/courses/30/lessons/42840
+3. 프로그래머스 - 베스트앨범 - 레벨 3 - https://programmers.co.kr/learn/courses/30/lessons/42579

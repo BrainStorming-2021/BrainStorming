@@ -73,3 +73,6 @@
 3. 프로그래머스 - 베스트앨범 - 레벨 3 - https://programmers.co.kr/learn/courses/30/lessons/42579
 
 ## 스터디 9주차 문제(문제 선별 - 안정식)
+1. 프로그래머스 - 프린터 - https://programmers.co.kr/learn/courses/30/lessons/42587
+2. 프로그래머스 - 124 나라 - https://programmers.co.kr/learn/courses/30/lessons/12899
+3. 프로그래머스 - 문자열 압축 - https://programmers.co.kr/learn/courses/30/lessons/60057

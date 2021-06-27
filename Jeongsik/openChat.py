@@ -69,7 +69,11 @@
 def solution(record):
     
     category = {}
+    answer = []
     for x in range(len(record)):
+        # data[0] 상태 값
+        # data[1] uid
+        # data[2] 닉네임
         
         data = record[x].split(' ')
         if data[0] == 'Enter' or data[0] == 'Change' :
@@ -77,8 +81,19 @@ def solution(record):
         else :
             category.update({ data[1] : data[0] })
     # category {'uid1234|Muzi': 'Enter', 'uid4567|Prodo': 'Enter', 'uid1234': 'Leave', 'uid1234|Prodo': 'Enter', 'uid4567|Ryan': 'Change'}
-    
-    answer = []
+    for y in category:
+        
+        id_nickName = y.split('|')
+        print(id_nickName)
+        # if id_nickName[1] in id_nickName
+        #     if category[y] == 'Enter' :
+        #         answer.append(id_nickName[1] + '님이 들어왔습니다.')
+        #     elif category[y] == 'Change' :
+        #         answer.append(id_nickName[1] + '님이 들어왔습니다.')
+        # else:
+        #     answer.append(id_nickName[1] + '님이 나갔습니다..')
+        
+    print(answer)
     
     return answer
 

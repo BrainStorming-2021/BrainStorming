@@ -76,3 +76,8 @@
 1. 프로그래머스 - 프린터 - https://programmers.co.kr/learn/courses/30/lessons/42587
 2. 프로그래머스 - 124 나라 - https://programmers.co.kr/learn/courses/30/lessons/12899
 3. 프로그래머스 - 문자열 압축 - https://programmers.co.kr/learn/courses/30/lessons/60057
+
+## 스터디 10주차 문제(문제 선별 - 최인선)
+1. 프로그래머스 - 오픈채팅방 - https://programmers.co.kr/learn/courses/30/lessons/42888
+2. Codility - 
+3. leetcode - 

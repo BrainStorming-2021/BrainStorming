@@ -70,29 +70,31 @@ def solution(record):
     
     category = {}
     answer = []
+    stack = {}
+    account = {}
+    
     for x in range(len(record)):
         # data[0] 상태 값
         # data[1] uid
         # data[2] 닉네임
-        
+    
         data = record[x].split(' ')
-        if data[0] == 'Enter' or data[0] == 'Change' :
-            category.update({ data[1]+'|'+data[2] : data[0] })
+        
+        #print(account)
+        if data[0] == 'Enter' :
+            account[data[1]]=data[2]
+            answer.append(account[data[1]] + '님이 들어왔습니다.')
+            
+            #stack[data[1]] = { data[2] : data[0] } 
+        elif data[0] == 'Change' :
+            # update 시 기존에 answer에 쌓인 이름도 전체 변경해야함
+            account[data[1]]=data[2]
+            answer.append(account[data[1]] + '님이 들어왔습니다.')
+            #stack[data[1]] = { data[2] : data[0] }
         else :
-            category.update({ data[1] : data[0] })
-    # category {'uid1234|Muzi': 'Enter', 'uid4567|Prodo': 'Enter', 'uid1234': 'Leave', 'uid1234|Prodo': 'Enter', 'uid4567|Ryan': 'Change'}
-    for y in category:
-        
-        id_nickName = y.split('|')
-        print(id_nickName)
-        # if id_nickName[1] in id_nickName
-        #     if category[y] == 'Enter' :
-        #         answer.append(id_nickName[1] + '님이 들어왔습니다.')
-        #     elif category[y] == 'Change' :
-        #         answer.append(id_nickName[1] + '님이 들어왔습니다.')
-        # else:
-        #     answer.append(id_nickName[1] + '님이 나갔습니다..')
-        
+            answer.append(account[data[1]] + '님이 나갔습니다.')
+            #stack[data[1]] = data[0]
+    
     print(answer)
     
     return answer

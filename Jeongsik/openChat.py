@@ -80,7 +80,7 @@ def solution(record):
             account[data[1]]=data[2]
             answer.append(data[1] + '님이 들어왔습니다.')
         elif data[0] == 'Change' :
-            # update 시 기존에 answer에 쌓인 이름도 전체 변경해야함
+            # 중복이름 허용 예외도 확인필요
             account[data[1]]=data[2]
             answer.append(data[1] + '님이 들어왔습니다.')
         else :

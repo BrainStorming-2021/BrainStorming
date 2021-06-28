@@ -67,34 +67,24 @@ https://programmers.co.kr/learn/courses/30/lessons/42888
     입출력 예 #1
     문제의 설명과 같다.
 '''
-
 def solution(record):
     category = {}
     answer = []
     account = {}
     result= []
     for x in range(len(record)):
-        # data[0] 상태 값
-        # data[1] uid
-        # data[2] 닉네임
         data = record[x].split(' ')
         if data[0] == 'Enter' :
             account[data[1]]=data[2]
             answer.append(data[1] + '님이 들어왔습니다.')
         elif data[0] == 'Change' :
-            # 중복이름 허용 예외도 확인필요
             account[data[1]]=data[2]
-            answer.append(data[1] + '님이 들어왔습니다.')
         else :
             answer.append(data[1] + '님이 나갔습니다.')
-    
     for y in answer:
         data = y.split('님')
         x=y.replace(data[0], account[data[0]])
         result.append(x)
-        
-    print(result)
-    
-    return answer
+    return result
 
 solution(["Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"])

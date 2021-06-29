@@ -1,13 +1,15 @@
 '''
-    https://leetcode.com/problems/add-two-numbers/
+    https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
     
     A binary gap within a positive integer N is any maximal sequence of consecutive zeros 
     that is surrounded by ones at both ends in the binary representation of N.
 
-    For example, number 9 has binary representation 1001 and contains a binary gap of length 2. 
-    The number 529 has binary representation 1000010001 and contains two binary gaps: 
-    one of length 4 and one of length 3. The number 20 has binary representation 10100 and contains one binary gap of length 
-    1. The number 15 has binary representation 1111 and has no binary gaps. The number 32 has binary representation 100000 and has no binary gaps.
+    For example, number 9 has binary representation 1001 and contains a binary gap of length 2.
+    The number 529 has binary representation 1000010001 and contains two binary gaps:
+    one of length 4 and one of length 3. 
+    The number 20 has binary representation 10100 and contains one binary gap of length 
+    1. The number 15 has binary representation 1111 and has no binary gaps. 
+    The number 32 has binary representation 100000 and has no binary gaps.
 
     Write a function:
         def solution(N)
@@ -25,46 +27,39 @@
 
 def solution(n):
     answer = ''
-    x = int(n / 2)
-    y = int(n % 2)
-    print(y)
-    for seq in range(x-1):
-        answer = answer + '0'
-    else :
-        answer = '1' + answer
-    
-    print(answer)
-    return 0
+    while n > 0:
+        if n % 2 == 1 :
+            answer = '1' + answer
+        else :
+            answer = '0' + answer
+        n = n // 2
+    return answer
 
-solution(10)
-solution(101)
-#solution(1000)
-#solution(10000)
+print(solution(2147483647))
 
 '''
-1   1
-2   10
-3   11
-4   100
-5   101
-6   110
-7   111
-8   1000
-9   1001
-10  1010
-11  1011
-12  1100
-13  1101
-14  1110
-15  1111
-16  10000
-17  10001
-18  10010
-19  10011
-20  10100
-21  10101
-22  10110
-23  10111
-25  11000
-
+    1   1
+    2   10
+    3   11
+    4   100
+    5   101
+    6   110
+    7   111
+    8   1000
+    9   1001
+    10  1010
+    11  1011
+    12  1100
+    13  1101
+    14  1110
+    15  1111
+    16  10000
+    17  10001
+    18  10010
+    19  10011
+    20  10100
+    21  10101
+    22  10110
+    23  10111
+    25  11000
 '''

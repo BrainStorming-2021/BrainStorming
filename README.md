@@ -21,6 +21,7 @@
 - 안정식
 - 최인선
 - 주형준
+- 김성진
 
 ## 스터디 목적
 - 컴퓨터 기초 공부
@@ -81,3 +82,5 @@
 1. 프로그래머스 - 오픈채팅방 - https://programmers.co.kr/learn/courses/30/lessons/42888
 2. Codility - Binary Gap - https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
 3. leetcode - 두 숫자 더하기 - https://leetcode.com/problems/add-two-numbers/
+
+## 스터디 11주차 문제(문제 선별 - 주형준)

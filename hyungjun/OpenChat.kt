@@ -54,5 +54,6 @@ fun check(n : String):Map<String,String>{
             result.put("result", check_uid[1]+"님이 들어왔습니다.")
         }
     }
+
     return result
 }

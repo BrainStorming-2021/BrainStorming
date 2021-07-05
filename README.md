@@ -81,3 +81,8 @@
 1. 프로그래머스 - 오픈채팅방 - https://programmers.co.kr/learn/courses/30/lessons/42888
 2. Codility - Binary Gap - https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
 3. leetcode - 두 숫자 더하기 - https://leetcode.com/problems/add-two-numbers/
+
+## 스터디 11주차 문제(문제 선별 - 주형준)
+1. 프로그래머스 - 기능개발 - https://programmers.co.kr/learn/courses/30/lessons/42586
+2. Codility - CyclicRotation - https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
+3. leetcode - 반복 문자가 없는 가장 긴 하위 문자열 - https://leetcode.com/problems/longest-substring-without-repeating-characters/

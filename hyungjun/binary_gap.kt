@@ -31,7 +31,7 @@ fun main(){
 
     //while 문은 참일 경우에만 돈다!
     while(n > 0){
-        i = n % 2       //2로 나눈 나머지
+        i = n % 2       //2로 나눈 나머지 2 10 -> 1010
         n = n/2        //2로 나눈 몫
 
         if(flag && i == 0){         //flag 가 true 인 상태에서 0이 나오면 count

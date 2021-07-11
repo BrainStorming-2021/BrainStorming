@@ -88,4 +88,4 @@
 2. Codility - CyclicRotation - https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
 3. leetcode - 반복 문자가 없는 가장 긴 하위 문자열 - https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
-## 스터디 12주차 문제(문제 선별 - )
+## 스터디 12주차 문제(문제 선별 - 김성진)

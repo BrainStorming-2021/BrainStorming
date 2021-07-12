@@ -89,3 +89,6 @@
 3. leetcode - 반복 문자가 없는 가장 긴 하위 문자열 - https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 ## 스터디 12주차 문제(문제 선별 - 김성진)
+1. 프로그래머스 - 폰켓몬 - https://programmers.co.kr/learn/courses/30/lessons/1845
+2. Codility - OddOccurrencesInArray - https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
+3. leetcode - 쌍으로 노드 교환 - https://leetcode.com/problems/swap-nodes-in-pairs/

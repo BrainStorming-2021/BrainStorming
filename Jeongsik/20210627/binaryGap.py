@@ -1,6 +1,7 @@
 #-*- coding:utf-8 -*-
 def solution(n):
-    binary = bin(n)    
+    binary = bin(n)
+    print(binary)
     binaryRange = []
     for index, value in enumerate(binary[2:]) :
         if value == '1':

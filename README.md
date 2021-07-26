@@ -17,11 +17,11 @@
 4. 개발관련 서적 스캔 (회비, 카카오뱅크에서 계좌 생성) - 박정미
 
 ## 스터디원(문제 제출 순서)
-- 박정미
 - 안정식
 - 최인선
 - 주형준
 - 김성진
+- 박정미(온라인 참가 - 랜덤)
 
 ## 스터디 목적
 - 컴퓨터 기초 공부
@@ -93,3 +93,7 @@
 2. Codility - OddOccurrencesInArray - https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
 3. leetcode - 쌍으로 노드 교환 - https://leetcode.com/problems/swap-nodes-in-pairs/
 
+## 스터디 13주차 문제(문제 선별 - 최인선[안정식 대체])
+1. 프로그래머스 - 서울에서 김서방 찾기 - https://programmers.co.kr/learn/courses/30/lessons/12919
+2. 코딜리티 - brackets - https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/
+3. leetcode - Reverse Integer - https://leetcode.com/problems/reverse-integer/

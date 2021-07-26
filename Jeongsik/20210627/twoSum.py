@@ -14,6 +14,7 @@ class Solution:
             fnumber += it1.val * number
             it1 = it1.next
             number *= 10
+        
         it2 = l2
         number = 1
         snumber = 0
@@ -33,3 +34,7 @@ class Solution:
                 curn.next = ListNode(int(i))
                 curn = curn.next
         return head
+    
+sol = Solution()
+
+sol.addTwoNumbers([1,2,3], [4,5,6])

@@ -15,6 +15,9 @@
 2. 블록체인 - 박정미
 3. 자바로 API 만들기 - 최인선 
 4. 개발관련 서적 스캔 (회비, 카카오뱅크에서 계좌 생성) - 박정미
+5. Buffereder 
+6. git 설명
+7. 노션 설명
 
 ## 스터디원(문제 제출 순서)
 - 안정식
@@ -97,3 +100,15 @@
 1. 프로그래머스 - 서울에서 김서방 찾기 - https://programmers.co.kr/learn/courses/30/lessons/12919
 2. 코딜리티 - brackets - https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/
 3. leetcode - Reverse Integer - https://leetcode.com/problems/reverse-integer/
+
+## 스터디 14주차 문제(문제 선별 - 안정식)
+1. 백준 - 단어의개수 https://www.acmicpc.net/problem/1152  
+2. 릿코드 - regular-expression-matching https://leetcode.com/problems/regular-expression-matching/description/  
+3. 코딜리티 - odd_occurrences_in_array https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/  
+4. 프로그래머스 - 다리를 지나는 트럭 https://programmers.co.kr/learn/courses/30/lessons/42583  
+
+## 스터디 15주차 문제(문제 선별 - 주형준)
+1. 프로그래머스 - 튜플 - https://programmers.co.kr/learn/courses/30/lessons/64065
+2. 코딜리티 - https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
+3. 백준 - 카드 1 - https://www.acmicpc.net/problem/2161
+4. 릿코드 - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/

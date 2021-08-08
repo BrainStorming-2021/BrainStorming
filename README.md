@@ -117,4 +117,4 @@
 1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/81301
 2. 코딜리티 - https://app.codility.com/programmers/lessons/6-sorting/distinct/
 3. 최대 힙 - https://www.acmicpc.net/problem/11279
-4. https://leetcode.com/problems/palindrome-number/
+4. leetcode - https://leetcode.com/problems/palindrome-number/

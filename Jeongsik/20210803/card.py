@@ -1,4 +1,5 @@
 from collections import deque
+<<<<<<< HEAD
 def solution(num):
     stack = []
     x = deque([seq+1 for seq in range(num)])

@@ -31,10 +31,12 @@ x가 palindrome 정수이면 true를 반환합니다.
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         x = list(str(x))
-        if x[0] == x[-1] :
-            return True
-        else :
-            return False
+        for seq in range(int(len(x)/2)):
+            if x[0] == x[-1] :
+                return True
+            else :
+                return False
 
 sol = Solution()
 sol.isPalindrome(12321)
+sol.isPalindrome(1221)

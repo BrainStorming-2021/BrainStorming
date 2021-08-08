@@ -112,3 +112,9 @@
 2. 코딜리티 - https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
 3. 백준 - 카드 1 - https://www.acmicpc.net/problem/2161
 4. 릿코드 - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
+## 스터디 16주차 문제(문제 선별 - 최인선)
+1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/81301
+2. 코딜리티 - https://app.codility.com/programmers/lessons/6-sorting/distinct/
+3. 최대 힙 - https://www.acmicpc.net/problem/11279
+4. https://leetcode.com/problems/palindrome-number/

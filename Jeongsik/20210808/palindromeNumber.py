@@ -31,12 +31,17 @@ x가 palindrome 정수이면 true를 반환합니다.
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         x = list(str(x))
-        for seq in range(int(len(x)/2)):
+        loopRange = int(len(x)/2)
+        for seq in range(loopRange):
             if x[0] == x[-1] :
-                return True
+                x.pop(0)
+                x.pop(-1)
             else :
                 return False
+        if len(x) <= 1:
+            return True
 
 sol = Solution()
-sol.isPalindrome(12321)
-sol.isPalindrome(1221)
+print(sol.isPalindrome(12321))
+print(sol.isPalindrome(1221))
+print(sol.isPalindrome(12211))

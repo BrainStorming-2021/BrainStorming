@@ -29,8 +29,30 @@ N이 주어졌을 때, 버린 카드들을 순서대로 출력하고, 마지막�
 예제 출력 1 
     1 3 5 7 4 2 6
 */
+import java.util.Scanner;
+
 public class Card{
-    public static void main(String[] args){
+    public static void test(){
         System.out.println("hello");
+    }
+    public static int sendNum(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("입력 값을 넣어주세요.");
+        int sendNumber = sc.nextInt();
+        sc.close();
+        return sendNumber;
+    }
+
+    public static int[] calculator(int number){
+        int[] results = new int[number];
+    
+        return results;
+    }
+
+    public static void main(String[] args){
+        sendNum();
+        int result = sendNum();
+        
+        calculator(result);
     }
 }

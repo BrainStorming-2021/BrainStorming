@@ -36,8 +36,6 @@ N은 [0] 범위 내의 정수입니다.100,000];
 # print("this is a debug message")
 
 def solution(A):
-    a=set(A)
-    # write your code in Python 3.6
-    return len(a)
+    return len(set(A))
 
 solution([2,1,1,2,3,1])

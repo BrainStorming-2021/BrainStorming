@@ -119,3 +119,9 @@
 2. 코딜리티 - https://app.codility.com/programmers/lessons/6-sorting/distinct/
 3. 최대 힙 - https://www.acmicpc.net/problem/11279
 4. leetcode - https://leetcode.com/problems/palindrome-number/
+
+## 스터디 17주차 문제(문제 선별 - 김성진)
+1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/42862
+2. Codility - https://app.codility.com/programmers/lessons/8-leader/equi_leader/
+3. 백준 - https://www.acmicpc.net/problem/1931
+4. LeetCode - https://leetcode.com/problems/sort-colors/

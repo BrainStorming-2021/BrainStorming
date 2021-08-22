@@ -43,16 +43,30 @@
         입력: nums = [1]
         출력: [1]
 '''
-
+from typing import List
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.
         """
-        pass
+        # 중복 제거
+        stack = []
+        for _ in nums:
+            if not _ in stack :
+                stack.append(_)
+
+        # 정렬
+        temp = 0
+        for seq in range(len(stack)) :
+            for ele in stack :
+                if stack[seq] <= ele:
+                    stack[:0]='test'
+        
+            
     
 sol = Solution()
 
-# sol.sortColors([2,0,2,1,1,0])
-# sol.sortColors([2,0,1])
-# sol.sortColors([0])
+sol.sortColors([2,0,2,1,1,0])
+#sol.sortColors([2,0,1])
+#sol.sortColors([0])
+#sol.sortColors([2,0,2,1,1,0])

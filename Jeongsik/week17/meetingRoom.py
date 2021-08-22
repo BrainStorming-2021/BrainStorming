@@ -37,7 +37,10 @@
 
 힌트
 (1,4), (5,7), (8,11), (12,14) 를 이용할 수 있다.
+
+그리디 알고리즘 문제 -> 정렬문제가 많다 -> 한 회의실을 최대한 많이 이용하는 수
 '''
+<<<<<<< HEAD
 def solution():
     # 회의 수
     countRoom = input().split(' ') 
@@ -46,3 +49,23 @@ def solution():
     useTime = str(input()).split(' ')
     
 solution()
+=======
+
+# 회의의 총 개수
+n=int(input())
+meeting = []
+for i in range(n):
+    # 회의 시간
+    s, e = map(int, input().split())
+    meeting.append((s, e))
+meeting.sort(key = lambda x : (x[1], x[0])) # 끝나는 시간 기준으로 정렬
+
+et = 0
+cnt = 0
+# 회의 시작 시간이 회의 끝나는 시간과 크거나 같다면 => 최대 회의 이용수
+for s, e in meeting:
+    if s >= et :
+        et = e
+        cnt += 1
+print(cnt)
+>>>>>>> refs/remotes/origin/main

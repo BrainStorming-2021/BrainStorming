@@ -41,6 +41,7 @@
 그리디 알고리즘 문제 -> 정렬문제가 많다 -> 한 회의실을 최대한 많이 이용하는 수
 '''
 <<<<<<< HEAD
+<<<<<<< HEAD
 def solution():
     # 회의 수
     countRoom = input().split(' ') 
@@ -50,6 +51,8 @@ def solution():
     
 solution()
 =======
+=======
+>>>>>>> 1cad458469ed179fea362ea827b8a1ddcc5f6454
 
 # 회의의 총 개수
 n=int(input())
@@ -67,5 +70,9 @@ for s, e in meeting:
     if s >= et :
         et = e
         cnt += 1
+<<<<<<< HEAD
 print(cnt)
 >>>>>>> refs/remotes/origin/main
+=======
+print(cnt)
+>>>>>>> 1cad458469ed179fea362ea827b8a1ddcc5f6454

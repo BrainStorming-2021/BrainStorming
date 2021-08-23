@@ -11,7 +11,8 @@
 
 입력
     첫째 줄에 회의의 수 N(1 ≤ N ≤ 100,000)이 주어진다. 
-    둘째 줄부터 N+1 줄까지 각 회의의 정보가 주어지는데 이것은 공백을 사이에 두고 회의의 시작시간과 끝나는 시간이 주어진다. 
+    둘째 줄부터 N+1 줄까지 각 회의의 정보가 주어지는데 이것은 
+    공백을 사이에 두고 회의의 시작시간과 끝나는 시간이 주어진다. 
     시작 시간과 끝나는 시간은 231-1보다 작거나 같은 자연수 또는 0이다.
 
 출력
@@ -39,6 +40,19 @@
 
 그리디 알고리즘 문제 -> 정렬문제가 많다 -> 한 회의실을 최대한 많이 이용하는 수
 '''
+<<<<<<< HEAD
+<<<<<<< HEAD
+def solution():
+    # 회의 수
+    countRoom = input().split(' ') 
+    absolCntRoom = abs(countRoom[1]) 
+    # 회의 시간
+    useTime = str(input()).split(' ')
+    
+solution()
+=======
+=======
+>>>>>>> 1cad458469ed179fea362ea827b8a1ddcc5f6454
 
 # 회의의 총 개수
 n=int(input())
@@ -56,4 +70,9 @@ for s, e in meeting:
     if s >= et :
         et = e
         cnt += 1
+<<<<<<< HEAD
 print(cnt)
+>>>>>>> refs/remotes/origin/main
+=======
+print(cnt)
+>>>>>>> 1cad458469ed179fea362ea827b8a1ddcc5f6454

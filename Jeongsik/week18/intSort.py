@@ -17,19 +17,14 @@
 3                3   
 4                4   
 1                5
-
-
-
-
-
-
 '''
 import random as rd
-nStack = []
-iNum = int(input())
-while(iNum == len(nStack)):
-#for _ in range(iNum):
-    ranNum = rd.randint(1, iNum)
-    if not ranNum in nStack :
-        nStack.append(ranNum)
-    print(nStack)
+# nStack = []
+# iNum = int(input())
+# while(iNum == len(nStack)):
+# #for _ in range(iNum):
+#     ranNum = rd.randint(1, iNum)
+#     if not ranNum in nStack :
+#         nStack.append(ranNum)
+#     print(nStack)
+

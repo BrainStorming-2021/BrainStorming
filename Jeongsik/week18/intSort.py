@@ -18,13 +18,20 @@
 4                4   
 1                5
 '''
-import random as rd
-# nStack = []
-# iNum = int(input())
-# while(iNum == len(nStack)):
-# #for _ in range(iNum):
-#     ranNum = rd.randint(1, iNum)
-#     if not ranNum in nStack :
-#         nStack.append(ranNum)
-#     print(nStack)
+
+nStack = []
+iNum = int(input())
+
+for _ in range(iNum):
+    nStack.append(int(input()))
+
+for idx in range(len(nStack)): # 앞으로 갈 가장 작은값
+    minIndex = idx
+    for com in range(idx + 1, len(nStack)): # 비교 교체 값
+        if nStack[minIndex] > nStack[com]: # 계속해서 작은수의 index 값을 찾아서 비교하고 넣는다.
+            minIndex = com
+    nStack[idx], nStack[minIndex] = nStack[minIndex], nStack[idx]
+
+for result in nStack:
+    print(result)
 

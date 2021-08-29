@@ -64,3 +64,19 @@ All integers in arr are unique (i.e. arr is a permutation of the integers from 1
     1 = arr[i] = arr.길이
     배열의 모든 정수는 고유합니다(즉, 배열은 1에서 배열 길이까지의 정수의 순열입니다.
 '''
+from typing import List
+class Solution:
+    def pancakeSort(self, arr: List[int]) -> List[int]:
+        # print(arr[::-1])
+        for rLen in len(arr):
+            reverseRange = rLen
+            cnt = 1
+            
+            for i in reversed(arr):
+                if cnt == reverseRange:
+                    break
+            
+        pass
+    
+sol = Solution()
+sol.pancakeSort([1,2,3])

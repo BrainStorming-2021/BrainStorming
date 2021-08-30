@@ -134,3 +134,15 @@
 2. Codility - https://app.codility.com/programmers/lessons/8-leader/equi_leader/
 3. 백준 - https://www.acmicpc.net/problem/1931
 4. LeetCode - https://leetcode.com/problems/sort-colors/
+
+## 스터디 18주차 문제(문제 선별 - 안정식)
+1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/42746
+2. 백준 - https://www.acmicpc.net/problem/2750
+3. 코딜리티 - https://app.codility.com/programmers/lessons/6-sorting/triangle/
+4. 릿코드 - https://leetcode.com/problems/pancake-sorting/
+
+## 스터디 19주차 문제(문제 선별 - 주형준)
+1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/60058
+2. 백준 -https://www.acmicpc.net/problem/1541
+3. 코딜리티 - https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/
+4. 릿코드 - https://leetcode.com/problems/roman-to-integer/

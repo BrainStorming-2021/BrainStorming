@@ -76,6 +76,7 @@
     N은 [1] 범위 내의 정수입니다.100,000];
     배열 A의 각 요소는 0, 1 중 하나의 값을 가질 수 있는 정수입니다.
 '''
+# 한 숫자를 기준으로 잡고 누적식으로 더해간다.
 def solution(A):
     sumN = 0
     west = 0
@@ -83,8 +84,9 @@ def solution(A):
         if x == 0:
             west += 1
         if x == 1:
-            sum += west
+            sumN += west
     
-    if sum > 1000000000:
+    if sumN > 1000000000:
         return -1
-    return sum
+    return sumN
+

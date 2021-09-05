@@ -1,0 +1,113 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoonNo2161_others",
+            "request": "launch",
+            "mainClass": "BaekJoonNo2161_others",
+            "projectName": "KimSungJin_3f3d6dc"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoonNo2161_submit",
+            "request": "launch",
+            "mainClass": "BaekJoonNo2161_submit",
+            "projectName": "KimSungJin_3f3d6dc"
+        },
+        {
+            "type": "java",
+            "name": "Launch BorrowGymClothes",
+            "request": "launch",
+            "mainClass": "BorrowGymClothes",
+            "projectName": "KimSungJin_3f3d6dc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Brackets",
+            "request": "launch",
+            "mainClass": "Brackets",
+            "projectName": "KimSungJin_3f3d6dc"
+        },
+        {
+            "type": "java",
+            "name": "Launch CyclicRotation",
+            "request": "launch",
+            "mainClass": "CyclicRotation",
+            "projectName": "KimSungJin_3f3d6dc"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMrKim",
+            "request": "launch",
+            "mainClass": "FindMrKim",
+            "projectName": "KimSungJin_3f3d6dc"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlogJump",
+            "request": "launch",
+            "mainClass": "FlogJump",
+            "projectName": "KimSungJin_3f3d6dc"
+        },
+        {
+            "type": "java",
+            "name": "Launch HowManyWords",
+            "request": "launch",
+            "mainClass": "HowManyWords",
+            "projectName": "KimSungJin_3f3d6dc"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestSubstringWithoutRepeatingCharacters",
+            "request": "launch",
+            "mainClass": "LongestSubstringWithoutRepeatingCharacters",
+            "projectName": "KimSungJin_3f3d6dc"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddOccurrenceInArray",
+            "request": "launch",
+            "mainClass": "OddOccurrenceInArray",
+            "projectName": "KimSungJin_3f3d6dc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Phonkemon",
+            "request": "launch",
+            "mainClass": "Phonkemon",
+            "projectName": "KimSungJin_3f3d6dc"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseInteger",
+            "request": "launch",
+            "mainClass": "ReverseInteger",
+            "projectName": "KimSungJin_3f3d6dc"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortColors",
+            "request": "launch",
+            "mainClass": "SortColors",
+            "projectName": "KimSungJin_3f3d6dc"
+        },
+        {
+            "type": "java",
+            "name": "Launch TruckOnTheBridge",
+            "request": "launch",
+            "mainClass": "TruckOnTheBridge",
+            "projectName": "KimSungJin_3f3d6dc"
+        }
+    ]
+}

@@ -146,3 +146,9 @@
 2. 백준 -https://www.acmicpc.net/problem/1541
 3. 코딜리티 - https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/
 4. 릿코드 - https://leetcode.com/problems/roman-to-integer/
+
+# 스터디 20주차 문제(문제 선별 - 최인선)
+1. 프로그래머스 - 위클리 챌린지 - https://programmers.co.kr/learn/courses/30/lessons/85002
+2. 백준 - 퇴사 - https://www.acmicpc.net/problem/14501
+3. leetcode - longest common prefix - https://leetcode.com/problems/longest-common-prefix/
+4. codility - missing integer - https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/

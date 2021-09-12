@@ -152,3 +152,7 @@
 2. 백준 - 퇴사 - https://www.acmicpc.net/problem/14501
 3. leetcode - longest common prefix - https://leetcode.com/problems/longest-common-prefix/
 4. codility - missing integer - https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
+
+## 스터디 21주차 문제(문제 선별 - 공통)
+1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/12943
+2. 백준 - 

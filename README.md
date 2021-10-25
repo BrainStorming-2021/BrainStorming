@@ -15,16 +15,29 @@
 2. 블록체인 - 박정미
 3. 자바로 API 만들기 - 최인선 
 4. 개발관련 서적 스캔 (회비, 카카오뱅크에서 계좌 생성) - 박정미
+5. Buffereder 
+6. git 설명
+7. 노션 설명
+8. 최대힙, 최소힙 설명 요청 - 안정식 => 최인선 확인 후 설명 예정
 
 ## 스터디원(문제 제출 순서)
-- 박정미
 - 안정식
 - 최인선
 - 주형준
 - 김성진
+- 박정미(온라인 참가 - 랜덤)
 
 ## 스터디 목적
 - 컴퓨터 기초 공부
+
+# 설명 인원 
+선택정렬, 버블정렬 - 안정식
+
+삽입정렬, 퀵정렬 - 최인선
+
+합병정렬, 힙정렬 - 주형준
+
+거품정렬, 계수정렬 - 김성진
 
 ## 알고리즘 문제 출제 방법
 1. 프로그래머스 LEVEL 2이상 1문제
@@ -93,3 +106,56 @@
 2. Codility - OddOccurrencesInArray - https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
 3. leetcode - 쌍으로 노드 교환 - https://leetcode.com/problems/swap-nodes-in-pairs/
 
+## 스터디 13주차 문제(문제 선별 - 최인선[안정식 대체])
+1. 프로그래머스 - 서울에서 김서방 찾기 - https://programmers.co.kr/learn/courses/30/lessons/12919
+2. 코딜리티 - brackets - https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/
+3. leetcode - Reverse Integer - https://leetcode.com/problems/reverse-integer/
+
+## 스터디 14주차 문제(문제 선별 - 안정식)
+1. 백준 - 단어의개수 https://www.acmicpc.net/problem/1152  
+2. 릿코드 - regular-expression-matching https://leetcode.com/problems/regular-expression-matching/description/  
+3. 코딜리티 - odd_occurrences_in_array https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/  
+4. 프로그래머스 - 다리를 지나는 트럭 https://programmers.co.kr/learn/courses/30/lessons/42583  
+
+## 스터디 15주차 문제(문제 선별 - 주형준)
+1. 프로그래머스 - 튜플 - https://programmers.co.kr/learn/courses/30/lessons/64065
+2. 코딜리티 - https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
+3. 백준 - 카드 1 - https://www.acmicpc.net/problem/2161
+4. 릿코드 - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
+## 스터디 16주차 문제(문제 선별 - 최인선)
+1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/81301
+2. 코딜리티 - https://app.codility.com/programmers/lessons/6-sorting/distinct/
+3. 최대 힙 - https://www.acmicpc.net/problem/11279
+4. leetcode - https://leetcode.com/problems/palindrome-number/
+
+## 스터디 17주차 문제(문제 선별 - 김성진)
+1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/42862
+2. Codility - https://app.codility.com/programmers/lessons/8-leader/equi_leader/
+3. 백준 - https://www.acmicpc.net/problem/1931
+4. LeetCode - https://leetcode.com/problems/sort-colors/
+
+## 스터디 18주차 문제(문제 선별 - 안정식)
+1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/42746
+2. 백준 - https://www.acmicpc.net/problem/2750
+3. 코딜리티 - https://app.codility.com/programmers/lessons/6-sorting/triangle/
+4. 릿코드 - https://leetcode.com/problems/pancake-sorting/
+
+## 스터디 19주차 문제(문제 선별 - 주형준)
+1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/60058
+2. 백준 -https://www.acmicpc.net/problem/1541
+3. 코딜리티 - https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/
+4. 릿코드 - https://leetcode.com/problems/roman-to-integer/
+
+## 스터디 20주차 문제(문제 선별 - 최인선)
+1. 프로그래머스 - 위클리 챌린지 - https://programmers.co.kr/learn/courses/30/lessons/85002
+2. 백준 - 퇴사 - https://www.acmicpc.net/problem/14501
+3. leetcode - longest common prefix - https://leetcode.com/problems/longest-common-prefix/
+4. codility - missing integer - https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
+
+## 스터디 21주차 문제(문제 선별 - 공통)
+1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/12943 - 수열
+2. 백준 - https://www.acmicpc.net/problem/10808 - 문자열
+
+## 스터디 22주차 문제부터는 백준 문제집을 만들어서 풀고 있습니다.
+- 문제집 링크: https://www.acmicpc.net/group/workbook/list/12527

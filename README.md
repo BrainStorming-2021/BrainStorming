@@ -30,6 +30,15 @@
 ## 스터디 목적
 - 컴퓨터 기초 공부
 
+# 설명 인원 
+선택정렬, 버블정렬 - 안정식
+
+삽입정렬, 퀵정렬 - 최인선
+
+합병정렬, 힙정렬 - 주형준
+
+거품정렬, 계수정렬 - 김성진
+
 ## 알고리즘 문제 출제 방법
 1. 프로그래머스 LEVEL 2이상 1문제
 2. 백준 1문제
@@ -125,3 +134,28 @@
 2. Codility - https://app.codility.com/programmers/lessons/8-leader/equi_leader/
 3. 백준 - https://www.acmicpc.net/problem/1931
 4. LeetCode - https://leetcode.com/problems/sort-colors/
+
+## 스터디 18주차 문제(문제 선별 - 안정식)
+1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/42746
+2. 백준 - https://www.acmicpc.net/problem/2750
+3. 코딜리티 - https://app.codility.com/programmers/lessons/6-sorting/triangle/
+4. 릿코드 - https://leetcode.com/problems/pancake-sorting/
+
+## 스터디 19주차 문제(문제 선별 - 주형준)
+1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/60058
+2. 백준 -https://www.acmicpc.net/problem/1541
+3. 코딜리티 - https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/
+4. 릿코드 - https://leetcode.com/problems/roman-to-integer/
+
+## 스터디 20주차 문제(문제 선별 - 최인선)
+1. 프로그래머스 - 위클리 챌린지 - https://programmers.co.kr/learn/courses/30/lessons/85002
+2. 백준 - 퇴사 - https://www.acmicpc.net/problem/14501
+3. leetcode - longest common prefix - https://leetcode.com/problems/longest-common-prefix/
+4. codility - missing integer - https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
+
+## 스터디 21주차 문제(문제 선별 - 공통)
+1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/12943 - 수열
+2. 백준 - https://www.acmicpc.net/problem/10808 - 문자열
+
+## 스터디 22주차 문제부터는 백준 문제집을 만들어서 풀고 있습니다.
+- 문제집 링크: https://www.acmicpc.net/group/workbook/list/12527

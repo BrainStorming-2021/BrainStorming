@@ -156,3 +156,6 @@
 ## 스터디 21주차 문제(문제 선별 - 공통)
 1. 프로그래머스 - https://programmers.co.kr/learn/courses/30/lessons/12943 - 수열
 2. 백준 - https://www.acmicpc.net/problem/10808 - 문자열
+
+## 스터디 22주차 문제부터는 백준 문제집을 만들어서 풀고 있습니다.
+- 문제집 링크: https://www.acmicpc.net/group/workbook/list/12527

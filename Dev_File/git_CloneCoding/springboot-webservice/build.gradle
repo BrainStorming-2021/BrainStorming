@@ -1,0 +1,98 @@
+//buildscript {
+//    ext{    //-> ext라는 키워드는 build.gradle에서 사용하는 전역변수를 설정하겠다는 의미.
+//            //-> 여기서는 springBootVersion 전역변수를 생성하고 그 값을 ''안에 담았다.
+//            //-> 즉, spring-boot-gradle-plugin 이라는 스프링 부트 그레이들 플러그인의 2.1.7.RELEASE를 의존성으로 받겠다는 의미.
+//        springBootVersion = '2.1.9.RELEASE'
+//    }
+//    repositories {
+//        mavenCentral()
+//        jcenter()   //-> 라이브러리 업로드 난이도 때문에 최근에 많이 사용함
+//
+//        //추가 설명
+//        //mavenCentral 은 이전부터 많이 사용했지만 본인이 만든 라이버리를 업로드 하기위해서는 많은 과정과 설정이 필요.
+//        //공유가 어려움
+//        //최근 이런 문제점 개선한 jcenter 사용.
+//        //jcenter 는 라이브러리 업로드를 간단하게 함.
+//        //또한, jcenter 에 라이브러리를 업로드 하면 mavenCentral 에도 업로드 될 수 있도록 자동화 가능.
+//    }
+//    dependencies { //-> 프로젝트 개발에 필요한 의존성들 선언하는 곳
+//        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+//    }
+//}   //-> 이 프로젝트의 플러그인 의존성 관리를 위한 설정
+//
+////다음은 앞서 선언한 플러그인 의존성들을 적용할 것인지를 결정하는 코드
+////아래 4개 플러그인은 자바와 스프링 부트를 사용하기 위해서는 필수 플러그인들이니 항상 추가하면 된다.
+//
+//apply plugin: 'java'
+//apply plugin: 'eclipse'
+//apply plugin: 'org.springframework.boot'
+//apply plugin: 'io.spring.dependency-management'    //-> 스프링 부트의 의존성들을 관리해주는 플러그인
+//
+//
+//// 이하 기존 기본 설정
+//group 'org.example'
+//version '1.0-SNAPSHOT'
+//
+//repositories {
+//    mavenCentral()
+//    jcenter()
+//}
+//
+//dependencies {
+//    compile('org.springframework.boot:spring-boot-starter-web')
+//    compile('org.projectlombok:lombok')
+//    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+//    compile('org.springframework.boot:spring-boot-starter-mustache')
+//    compile('com.h2database:h2')
+//
+//    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
+//    compile('org.springframework.session:spring-session-jdbc')
+//
+////    compile("org.mariadb.jdbc:mariadb-java-client")
+//
+//    testCompile('org.springframework.boot:spring-boot-starter-test')
+//    testCompile("org.springframework.security:spring-security-test")
+//}
+//
+//
+plugins { // (1)
+    id 'org.springframework.boot' version '2.4.1' // RELEASE 삭제
+    id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+    id 'java'
+}
+
+group 'com.jojoldu.book'
+version '1.0.4-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+// for Junit 5
+test { // (2)
+    useJUnitPlatform()
+}
+
+dependencies {
+    //(3)
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    implementation('org.springframework.boot:spring-boot-starter-mustache')
+
+    // lombok
+    implementation('org.projectlombok:lombok')
+    annotationProcessor('org.projectlombok:lombok')
+    testImplementation('org.projectlombok:lombok')
+    testAnnotationProcessor('org.projectlombok:lombok')
+
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    implementation("org.mariadb.jdbc:mariadb-java-client")
+    implementation('com.h2database:h2')
+
+    implementation('org.springframework.boot:spring-boot-starter-oauth2-client') // 권한 관련
+    implementation('org.springframework.session:spring-session-jdbc') // 권한 관련
+
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+    testImplementation("org.springframework.security:spring-security-test") // 권한 관련
+}
